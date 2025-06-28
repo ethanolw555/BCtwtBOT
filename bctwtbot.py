@@ -42,7 +42,7 @@ def api_query():
                            access_token=access_token,
                            )
     # parameter initialisation : sets parameters ; name of acc, how many tweets etc.
-    id = 1211632574587498496
+    id = TWITTERID
     tweetCount = 15
     name = 'TWITTER ACCOUNT NAME'
     query = f'from:{name}'
